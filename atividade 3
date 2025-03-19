@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta Atividade Formulario</title>
+</head>
+<body>
+
+<h1>Formulario ant clona cartao</h1>
+
+<form action="/submit_form" method="POST">
+   <label for="name">Nome completo:</label><br>
+    <input type="text" id="nome completo" name="nome completo" required><br><br>
+   
+    <label for="numeros">Numero cartao:</label><br>
+    <input type="number" id="numeros" name="numeros"placeholder="somente numeros" required><br><br>
+   
+    <label for="cvc">Cvc:</label><br>
+    <input type="number" id="cvc" name="cvc" min="3" max="3" required><br><br>
+
+    <label for="validade">Validade:</label><br>
+    <input type="date" id="validade" name="validade" required><br><br>
+
+    
+    <label for="cpf"> CPF</label> <br>
+    <input type="number" id="cpf" name="cpf" placeholder="somente numeros" required><br><br>
+    
+    <label for="color">cor do cartao</label><br>
+    <input type="color" id="color" name="color" required><br><br>
+    
+    <label for="termsr">concorda com tudo?</label><br>
+    <input type="checkbox" id="terms" name="nterms" value="yes" required><br><br>
+    </label><br>
+    <label for="profilepicture">foto frente e verso do cartao</label><br>
+    <input type="file" id="profilepicture" name="profilepicture" accept="image" required><br><br>
+
+    <input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>
+
+
