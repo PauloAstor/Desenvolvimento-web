@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resposta à questão sobre semântica em HTML5">
+    <meta name="author" content="Paulo Augustto">
+    <meta name="keywords" content="semântica, HTML5, importância, marcação">
+    <title>Lista 1 - Questão 4</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ADD8E6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .question {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .resposta {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .important {
+            background-color:  #ADD8E6;
+            border-left: 4px solid  #4CAF50;
+            padding: 10px;
+            margin: 20px 0;
+        }
+
+        .hover-box {
+            background-color:  #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px;
+            margin-top: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .hover-box:hover {
+            background-color:#00FF00;
+        }
+
+        
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lista 1 - Questão 4</h1>
+    </header>
+
+    <div class="container">
+        <div class="question">
+            <p>Que significa semântica? Por que isso é tão importante em HTML5?</p>
+        </div>
+
+        <div class="resposta">
+            <p><strong>Semântica</strong> em HTML refere-se ao uso de elementos HTML que possuem um significado claro e específico, ao invés de usar apenas tags genéricas, como a tag `<div>`. Utilizar elementos semânticos melhora a estrutura e a acessibilidade do conteúdo da página, além de ajudar na compreensão do código por outros desenvolvedores e pelo navegador.</p>
+
+            <p>Em HTML5, o conceito de semântica se tornou ainda mais relevante. Elementos como<span style="color: blue;"> `article`, `section`, `header`, `footer`, `nav` e `aside`</span> foram introduzidos para representar de forma mais clara e lógica o conteúdo da página.</p>
+
+            <p><strong>Importância:</strong> A semântica é fundamental porque:
+                <ul>
+                    <li>Facilita a leitura e manutenção do código.</li>
+                    <li>Melhora a acessibilidade para pessoas com deficiência.</li>
+                    <li>Ajuda motores de busca a entender melhor o conteúdo da página (SEO).</li>
+                    <li>Melhora a compatibilidade com navegadores e tecnologias assistivas.</li>
+                </ul>
+            </p>
+
+            <div class="important">
+                <p><strong>Exemplo de Elemento Semântico:</strong> O uso de  <span style="color: blue;">`header`</span> para definir o cabeçalho de uma página ou seção, e <span style="color: blue;">`footer`</span> para o rodapé, são práticas semânticas que ajudam na organização e compreensão do conteúdo.</p>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <footer>
+        <div class="hover-box">
+                <p>desenvolvido por Paulo Augustto!</p>
+            </div>
+    </footer>
+
+</body>
+</html>
