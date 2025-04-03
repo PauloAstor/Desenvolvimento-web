@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lista de países com bandeiras e links para a Wikipedia">
+    <meta name="author" content="Paulo Augustto">
+    <meta name="keywords" content="países, bandeiras, continentes, links, wikipedia">
+    <title>Lista 1 - Questão 5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #ADD8E6;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: #007bff;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .continent {
+            margin-bottom: 30px;
+        }
+
+        .country-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .country-item {
+            text-align: center;
+            margin: 15px;
+        }
+
+        .flag {
+            width: 120px;
+            height: 80px;
+            display: block;
+            margin: 10px auto;
+            border-radius: 5px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+                .hover-box {
+            background-color:  #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px;
+            margin-top: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .hover-box:hover {
+            background-color:#00FF00;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lista 1 - Questão 5</h1>
+    </header>
+
+    <div class="container">
+        <h2>América</h2>
+        <div class="continent">
+            <div class="country-list">
+                <div class="country-item">
+                    <a href="https://pt.wikipedia.org/wiki/Brasil" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg" alt="Bandeira do Brasil" class="flag">
+                        <p>Brasil</p>
+                    </a>
+                </div>
+                <div class="country-item">
+                    <a href="https://pt.wikipedia.org/wiki/Argentina" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg" alt="Bandeira da Argentina" class="flag">
+                        <p>Argentina</p>
+                    </a>
+                </div>
+                <div class="country-item">
+                    <a href="https://pt.wikipedia.org/wiki/Estados_Unidos" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" alt="Bandeira dos Estados Unidos" class="flag">
+                        <p>Estados Unidos</p>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+        <h2>Europa</h2>
+        <div class="continent">
+            <div class="country-list">
+                <div class="country-item">
+                    <a href="https://pt.wikipedia.org/wiki/França" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg" alt="Bandeira da França" class="flag">
+                        <p>França</p>
+                    </a>
+                </div>
+                <div class="country-item">
+                    <a href="https://pt.wikipedia.org/wiki/Alemanha" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg" alt="Bandeira da Alemanha" class="flag">
+                        <p>Alemanha</p>
+                    </a>
+                </div>
+                <div class="country-item">
+                    <a href="https://pt.wikipedia.org/wiki/It%C3%A1lia" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg" alt="Bandeira da Itália" class="flag">
+                        <p>Itália</p>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+        <h2>Ásia</h2>
+        <div class="continent">
+            <div class="country-list">
+                <div class="country-item">
+                    <a href="https://pt.wikipedia.org/wiki/Jap%C3%A3o" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg" alt="Bandeira do Japão" class="flag">
+                        <p>Japão</p>
+                    </a>
+                </div>
+                <div class="country-item">
+                    <a href="https://pt.wikipedia.org/wiki/China" target="_blank">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAjVBMVEXuHCX//wDtACb71w/uEyXuDSb//ADuACX++APyYB/vLiPyZh75uhP4shX+9gT84wr97Af3phfwSSH96Aj82wzzcB31lBn5vxL+8AXxVSD5xBHzexzuJCT70A/xWyDvOSL3qxb2mhj0ghvyax7wQSL1jRr2nhf6yBD1jxr4thT0fRz70RD0hhvzdR3wTiKM2NAWAAAEoklEQVR4nO3cbXeaMBgGYPOYiOILqKhoUdtpbdfV/v+ft0RAcFpNWFsh3NeXnZ3VHXKT96Q2GgAAAABQc+LeD1A+9LDi936GskiqhxixNTKJRVOHZBY8ajFEkqA+67skHJ+16d7PUho0YGy5ChjzkUlK7FmsiUyOqBln4q3J9uFYu8fkLktryoSsrit8pPuT1GFHg537nQ91ZzTr6NUUOTE5ChfTD4tHZBr0tdoBj9pJILO9S0QWR8LnLNTKxAkZa73IoZjNbc5DoUfGdJqBWLw8j4hUN7u1PJIGydf/qFNR4uZCQ2b91J6rjtNkYioztHoYbsTvnbGR/qsXE+uXOzRWmQxNKopWS6swvj2MrmOTYp7M6y3sW2gXTzmK7hJFW/tWPuTFmewKtgfy1+n2my01hq+TqalXNJOg5apQBG26loRCT+kCpmDjoR4bREJQJ7BmhE6bDmNPxYqkQh3wrpzx/7Ikk2xDpGjjERP52ZbhtK/UaJqt/t1CjYfSVPe2jD8UZJlMC7xoov04/nRQzWpC5xpZJLJU566/e0Fv/rHpOZUcdWZB819eLhN29q9N7/laKOK9nft00cH8vuSwaejGUMJHD8NlmNWzHyrHl6KJUSKee6uUXMj2pbrpMKxuKFFwK4jMo94G42EwXhPvvM6quV7m6ZLvpnZHs4BqYd0j1eFW9sSH5gOdSJZce7ohGIsqOeZkhPNyO5JXky0mzaOQUqNfNxLxRyaFpGb0bY/6c2g9vhZJz+yAnNtxssGp/3kke9OWYEUkEm1alxMJbk5K7EWN5qVIhrafel5FmwuRtOpbSRRaXKonE1t2QQqhi93Jos4VRVxeD9a68dDs8rizqXHjoU/G4lmBimJJjKJ7OZIijUeYrI5K7GTP7WmZ+0vX+K2Tb/6ZMso1ncEH5Y80esYvPSrU4EpHZBddXxz5kml03FYdmJZPvDHmfMtT/iz6nUaQbEOLbBzqGDYENfl7s6DxULLZNl4fawWlv2Cgv0PE40OgNmN/5B+OiKp8s5qv0uLnVnzkemaNh2/6j/3e4o/6kK+OerwqZxJvn7S6p6Xn8XU/NtddGue7ZqMKVkbqSixrNs7KQB31uvWPJMjNnY08VDoS/sHUkfmF6iCEnKro3TSP/yd6TRLxt5WORN0mDz/bhqZnvZvmx59PNrxNLpOWEbUXzqeDJ21Dk44h3YYxntaUCx89XysAp53BbEONxO2g0JqgVG6d8Rm8cj6XQ3CkLrXVejfqhBy+e7KzVidGNszvvwSN3w/1Q85trt7fqZNonjYZsuGE9GvU+TjoBII4Q78xxvyDdgazf8tto8MlDOpW9DbftxjMVkTCVVtI936UslCbuOHQ9RlbIpPU8QAE8/iMk1wmD+ZWf1uBkewIJNy5SOWAR7ntV0/zG0IsR8dfTWHLVzuuO/4vSm8bL1Z2f/2JvsNd/dCr/Bb9FxIPbDldk9Oq+623HL5yVINRZ6imR8r2SjoQ2atonxTWh9EBUD3Qu8E3yNQFehMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA49ReVBijAyEOfcwAAAABJRU5ErkJggg==" alt="Bandeira da China" class="flag">
+                        <p>China</p>
+                    </a>
+                </div>
+                <div class="country-item">
+                    <a href="https://pt.wikipedia.org/wiki/Índia" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg" alt="Bandeira da Índia" class="flag">
+                        <pÍndia</p>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+        <h2>África</h2>
+        <div class="continent">
+            <div class="country-list">
+                <div class="country-item">
+                    <a href="https://pt.wikipedia.org/wiki/África_do_Sul" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg" alt="Bandeira da África do Sul" class="flag">
+                        <p>África do Sul</p>
+                    </a>
+                </div>
+                <div class="country-item">
+                    <a href="https://pt.wikipedia.org/wiki/N%C3%ADgeria" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_Nigeria.svg" alt="Bandeira da Nigéria" class="flag">
+                        <p>Nigéria</p>
+                    </a>
+                </div>
+                <div class="country-item">
+                    <a href="https://pt.wikipedia.org/wiki/Egito" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg" alt="Bandeira do Egito" class="flag">
+                        <p>Egito</p>
+                    </a>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+        <h2>Oceania</h2>
+        <div class="continent">
+            <div class="country-list">
+                <div class="country-item">
+                    <a href="https://pt.wikipedia.org/wiki/Austr%C3%A1lia" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg" alt="Bandeira da Austrália" class="flag">
+                        <p>Austrália</p>
+                    </a>
+                </div>
+                <div class="country-item">
+                    <a href="https://pt.wikipedia.org/wiki/Nova_Zel%C3%A2ndia" target="_blank">
+                        <img src="data:image/png;base64,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" alt="Bandeira da Nova Zelândia" class="flag">
+                        <p>Nova Zelândia</p>
+                    </a>
+                </div>
+                <div class="country-item">
+                    <a href="https://pt.wikipedia.org/wiki/Papua_Nova_Guine" target="_blank">
+                        <img src="data:image/png;base64,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" alt="Bandeira de Papua Nova Guiné" class="flag">
+                        <p>Papua Nova Guiné</p>
+                    </a>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <div class="hover-box">
+                <p>desenvolvido por Paulo Augustto!</p>
+            </div>
+</body>
+</html>
